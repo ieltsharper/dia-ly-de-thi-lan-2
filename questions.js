@@ -50,7 +50,7 @@ const MC = [
   { q: "Biện pháp quan trọng nhất để giảm sức ép việc làm ở khu vực thành thị là",
     o: ["đẩy mạnh xuất khẩu lao động.", "đẩy mạnh quá trình đô thị hóa.", "xây dựng cơ cấu kinh tế hợp lí.", "chuyển cư tới các vùng khác."], a: "C" },
   { q: "Quá trình phân công lao động xã hội ở nước ta chậm chuyển biến, chủ yếu là do",
-    o: ["năng suất và thu nhập của lao động còn thấp.", "cơ sở hạ tầng kinh tế chưa phát triển đồng bộ.", "chưa sử dụng triệt để quỹ thời gian lao động.", "tỉ lệ thất nghiệp và thiếu việc làm còn cao."], a: "A" },
+    o: ["năng suất và thu nhập của lao động còn thấp.", "cơ sở hạ tầng kinh tế chưa phát triển đồng bộ.", "chưa sử dụng triệt để quỹ thời gian lao động.", "tỉ lệ thất nghiệp và thiếu việc làm còn cao."], a: "B" },
   { q: "Để sử dụng có hiệu quả quỹ thời gian lao động dư thừa ở nông thôn, biện pháp tốt nhất là",
     o: ["khôi phục các nghề thủ công.", "tiến hành thâm canh, tăng vụ.", "phát triển kinh tế hộ gia đình.", "khai hoang mở rộng diện tích."], a: "A" },
   { q: "Vấn đề việc làm ở nước ta hiện nay",
