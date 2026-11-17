@@ -378,7 +378,7 @@ function send() {
              " | II: " + S.tf.map((a, i) => `${i + 1}:` + a.map(v => v || "-").join("")).join(" ") +
              " | III: " + S.sa.map((v, i) => `${i + 1}=${String(v).trim() || "-"}`).join("; ")
   };
-  if (!SCRIPT_URL || SCRIPT_URL.startsWith("PASTE")) { $("#saveMsg").textContent = "(Chưa kết nối Google Sheet – kết quả chưa được lưu.)"; return; }
+  if (!SCRIPT_URL || SCRIPT_URL.startsWith("PASTE")) return;
   $("#saveMsg").textContent = "Đang lưu kết quả...";
   const attempt = n => fetch(SCRIPT_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
     .then(() => { $("#saveMsg").textContent = "✓ Kết quả đã được gửi cho giáo viên."; S.sent = true; save(); })
